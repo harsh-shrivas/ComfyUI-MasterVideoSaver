@@ -1,29 +1,3 @@
-================================================================================
-REPOSITORY UPLOAD DETAILS
-================================================================================
-Repository Name: ComfyUI-MasterVideoSaver
-Description    : Production-grade video export and canvas preview node for ComfyUI. Supports Apple ProRes 422 HQ (10-bit), H.264, WebM, and GIF with synchronized audio muxing.
-Topics / Tags  : comfyui, comfyui-nodes, video-saver, prores-422-hq, ffmpeg, video-processing, vfx-pipeline, audio-muxing
-
-Files to Upload:
-├── __init__.py
-├── master_video_saver.py
-├── requirements.txt
-└── README.md
-(Do NOT upload desktop.ini or __pycache__)
-
-================================================================================
-requirements.txt
-================================================================================
-imageio
-imageio-ffmpeg
-soundfile
-numpy
-torch
-
-================================================================================
-README.md
-================================================================================
 # ComfyUI-MasterVideoSaver
 
 A production-grade video export and real-time canvas preview node for ComfyUI.
@@ -46,13 +20,13 @@ Built for VFX compositors, video editors, and AI filmmakers who need mastering-g
 ## Installation
 
 1. Navigate to your ComfyUI custom nodes directory:
-   cd ComfyUI/custom_nodes
+    cd ComfyUI/custom_nodes
 
 2. Clone this repository:
-   git clone https://github.com/harsh-shrivas/ComfyUI-MasterVideoSaver.git
+    git clone https://github.com/harsh-shrivas/ComfyUI-MasterVideoSaver.git
 
 3. Install required dependencies:
-   pip install imageio imageio-ffmpeg soundfile numpy torch
+    pip install imageio imageio-ffmpeg soundfile numpy torch
 
 4. Restart ComfyUI.
 
